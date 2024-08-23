@@ -8,6 +8,6 @@
 
 $filename = $_SERVER['SCRIPT_NAME'];
 
-echo ($filename);
+echo ($filename . PHP_EOL);
 
 // run in terminal => php terre02.php

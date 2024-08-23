@@ -10,7 +10,7 @@ $rangeAlphabet = range('a','z');
 
 foreach ($rangeAlphabet as $index => $letter) {
     $letterLower = strtolower($letter);
-    echo($letterLower).PHP_EOL;
+    echo ($letterLower . PHP_EOL);
 }
 
 // run in terminal => php terre01.php
