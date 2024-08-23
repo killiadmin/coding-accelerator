@@ -21,7 +21,7 @@ if ($argc > 1) {
 
 $myArguments = 'You have not entered any arguments';
 
-echo ($myArguments);
+echo ($myArguments . PHP_EOL);
 
 
 // run in terminal => php terre03.php "Hello my name is Killian"
