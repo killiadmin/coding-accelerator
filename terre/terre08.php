@@ -23,7 +23,7 @@ if ($argc === 2) {
     $arrStr = str_split($str);
 
     // We loop on it
-    foreach($arrStr as $index => $chrtr) {
+    foreach ($arrStr as $index => $chrtr) {
         // We feed the meter if the key is not empty
         if (trim($chrtr) !== '') {
             $countString++;
@@ -34,7 +34,7 @@ if ($argc === 2) {
     return;
 }
 
-echo ('Put only one argument' . PHP_EOL);
+echo('Put only one argument' . PHP_EOL);
 
 // run in terminal => php terre08.php "Sayonara World"
 // Response : 13

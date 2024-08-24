@@ -28,7 +28,7 @@ if ($argc = 1) {
     return;
 }
 
-echo ('You must only enter one number in your arguments' . PHP_EOL);
+echo('You must only enter one number in your arguments' . PHP_EOL);
 
 // run in terminal => php terre10.php 9
 // Result : 3
