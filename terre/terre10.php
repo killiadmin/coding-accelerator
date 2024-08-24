@@ -30,5 +30,5 @@ if ($argc = 1) {
 
 echo ('You must only enter one number in your arguments' . PHP_EOL);
 
-// run in terminal => php terre05.php 9
+// run in terminal => php terre10.php 9
 // Result : 3
