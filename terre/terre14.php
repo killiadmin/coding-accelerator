@@ -2,6 +2,8 @@
 
 /**
  * Returns the middle value according to the 3 arguments given
+ *
+ * Prohibited function : sort()
  **/
 
 if ($argc === 4 && ctype_digit($argv[1]) && ctype_digit($argv[2]) && ctype_digit($argv[3])) {
