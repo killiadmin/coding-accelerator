@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Generates all possible combinations of three numbers from 0 to 9,
+ * Shows all the different possible combinations of three numbers in ascending order
  *
  * @return void
  */
